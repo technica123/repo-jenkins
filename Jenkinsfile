@@ -27,7 +27,7 @@ pipeline {
         stage('Code Checkout') {
             steps {
                 echo 'Checking out Java project...'
-                checkout scm
+                code checkout 
             }
         }
 
